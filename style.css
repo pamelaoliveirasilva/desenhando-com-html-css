@@ -1,0 +1,32 @@
+@import url(css/global.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    position: relative;
+    width: 90vw;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(assets/background_menu_up.png);
+    background-size: cover;
+}
+
+.containerLogo {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border: 2px black solid;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 30px;
+    height: auto;
+}
