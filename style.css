@@ -3,16 +3,17 @@
 body {
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient( to right top, rgb(219, 199, 107), rgb(95, 91, 91));
+    background-repeat: no-repeat;
 }
 
 .menu {
     position: relative;
     width: 90vw;
-    height: 50px;
+    height: 40px;
     margin: auto;
     margin-top: 10px;
-    background-image: url(assets/background_menu_up.png);
-    background-size: cover;
+    background-color: burlywood;
 }
 
 .containerLogo {
@@ -29,4 +30,44 @@ body {
 .logo {
     width: 30px;
     height: auto;
+}
+
+.containerHomePage {
+    z-index: -1;
+    position: relative;
+    width: 90vw;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(assets/background_home.jpg);
+    background-size: cover;
+    box-shadow: inset 1px 1px 5% gold;;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oxygen', sans-serif;
+    font-size: calc(1 * 5vw);
+    color: bisque;
+}
+
+.containerCards {
+    position: relative;
+    width: 90vw;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+.card {
+    width: 50px;
+    height: 50px;
+    background-color: black;
 }
